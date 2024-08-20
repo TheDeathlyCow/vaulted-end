@@ -2,7 +2,6 @@ package com.thedeathlycow.vaulted.end.registry;
 
 import com.thedeathlycow.vaulted.end.VaultedEnd;
 import com.thedeathlycow.vaulted.end.item.TexturedPolymerItem;
-import eu.pb4.polymer.core.api.item.SimplePolymerItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
