@@ -1,13 +1,14 @@
-
+# These are the trial spawners used in the End City Ship
+# This function only exists for debugging purposes, changing these values will NOT affect the game!
 
 # Endermite Trial Spawner
-give @p trial_spawner[\
+give @s trial_spawner[\
 	block_entity_data={\
 		id: "minecraft:trial_spawner",\
 		spawn_data: {entity: {id: "endermite"}},\
 		normal_config: {\
-			total_mobs: 9,\
-			simultaneous_mobs: 3,\
+			total_mobs: 12,\
+			simultaneous_mobs: 4,\
 			simultaneous_mobs_added_per_player: 1,\
 			ticks_between_spawn: 20,\
 			spawn_potentials: [\
@@ -19,20 +20,20 @@ give @p trial_spawner[\
 				}\
 			],\
 			loot_tables_to_eject: [\
-				{data: "vaulted-end:vaults/normal/endermite_ship", weight: 1}\
+				{data: "vaulted-end:trial_spawners/normal/endermite_ship", weight: 1}\
 			]\
 		},\
 		ominous_config: {\
-			total_mobs: 12,\
-			simultaneous_mobs: 4,\
-			simultaneous_mobs_added_per_player: 1,\
+			total_mobs: 18,\
+			simultaneous_mobs: 6,\
+			simultaneous_mobs_added_per_player: 2,\
 			ticks_between_spawn: 20,\
 			spawn_potentials: [\
 				{\
 					data: {\
 						entity:{id:"minecraft:endermite"}\
 					},\
-					weight: 3\
+					weight: 1\
 				},\
 				{\
 					data: {\
@@ -58,7 +59,7 @@ give @p trial_spawner[\
 				}\
 			],\
 			loot_tables_to_eject: [\
-				{data: "vaulted-end:vaults/ominous/endermite_ship", weight: 1}\
+				{data: "vaulted-end:trial_spawners/ominous/endermite_ship", weight: 1}\
 			]\
 		},\
 		spawn_data: {\
