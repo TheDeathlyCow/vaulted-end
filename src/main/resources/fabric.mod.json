@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "vaulted-end",
+	"version": "${version}",
+	"name": "Vaulted End",
+	"description": "Adds Elytra to Vaults in End Ships",
+	"authors": [
+		"TheDeathlyCow"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/vaulted-end/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.thedeathlycow.vaulted.end.VaultedEnd"
+		],
+		"client": [
+			"com.thedeathlycow.vaulted.end.VaultedEndClient"
+		],
+		"fabric-datagen": [
+			"com.thedeathlycow.vaulted.end.VaultedEndDataGenerator"
+		]
+	},
+	"mixins": [
+		"vaulted-end.mixins.json",
+		{
+			"config": "vaulted-end.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*",
+		"polymer-core": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
