@@ -14,7 +14,7 @@ public final class VaultEndItems {
     public static final Item ELYTRA_KEY = new TexturedPolymerItem(
             new Item.Settings().rarity(Rarity.UNCOMMON),
             Items.TRIAL_KEY,
-            60034558
+            VaultedEnd.id("item/elytra_key")
     );
 
     public static void initialize() {

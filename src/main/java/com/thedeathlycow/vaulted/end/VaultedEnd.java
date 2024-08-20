@@ -1,6 +1,7 @@
 package com.thedeathlycow.vaulted.end;
 
 import com.thedeathlycow.vaulted.end.registry.VaultEndItems;
+import eu.pb4.polymer.resourcepack.api.PolymerResourcePackUtils;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -13,11 +14,10 @@ public class VaultedEnd implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-
+		if (!PolymerResourcePackUtils.addModAssets(MOD_ID)) {
+			LOGGER.error("Unable to construct Polymer mod assets for {}", MOD_ID);
+		}
 		VaultEndItems.initialize();
-
-
 	}
 
 	public static Identifier id(String path) {
