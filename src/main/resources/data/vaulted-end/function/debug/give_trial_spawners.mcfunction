@@ -70,7 +70,7 @@ give @s trial_spawner[                                                          
 give @s trial_spawner[                                                                                                 \
 	block_entity_data={\
 		id: "minecraft:trial_spawner",\
-		spawn_data: { entity: {id: "minecraft:shulker", Color: 15b} },\
+		spawn_data: { entity: {id: "minecraft:shulker", Color: 10b} },\
 		normal_config: {\
 			total_mobs: 6,\
 			simultaneous_mobs: 3,\
@@ -79,7 +79,7 @@ give @s trial_spawner[                                                          
 			spawn_potentials: [\
 				{\
 					data: {\
-						entity:{ id:"minecraft:shulker", Color: 15b }\
+						entity:{ id:"minecraft:shulker", Color: 10b }\
 					},\
 					"weight": 1\
 				}                                                                                                      \
@@ -96,7 +96,7 @@ give @s trial_spawner[                                                          
 			spawn_potentials: [\
 				{\
 					data: {\
-						entity:{ id:"minecraft:shulker", Color: 15b }\
+						entity:{ id:"minecraft:shulker", Color: 10b }\
 					},\
 					weight: 1\
 				},\
@@ -111,7 +111,7 @@ give @s trial_spawner[                                                          
 							}\
 					},\
 					weight: 2\
-				}
+				}\
 			],\
 			loot_tables_to_eject: [\
 				{ data: "vaulted-end:trial_spawners/ominous/elytra_key", weight: 1 }\
