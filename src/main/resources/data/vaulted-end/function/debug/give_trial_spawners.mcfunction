@@ -20,7 +20,7 @@ give @s trial_spawner[                                                          
 				}                                                                                                      \
 			],                                                                                                         \
 			loot_tables_to_eject: [                                                                                    \
-				{ data: "minecraft:chests/end_city_treasure", weight: 1 }                                  \
+				{ data: "vaulted-end:trial_spawners/normal/generic_loot", weight: 1 }                                              \
 			]\
 		},\
 		ominous_config: {\
@@ -59,7 +59,7 @@ give @s trial_spawner[                                                          
 				}\
 			],\
 			loot_tables_to_eject: [\
-				{data: "minecraft:chests/end_city_treasure", weight: 1}\
+				{ data: "vaulted-end:trial_spawners/ominous/generic_loot", weight: 1 }\
 			]\
 		},\
 		spawn_data: {\
