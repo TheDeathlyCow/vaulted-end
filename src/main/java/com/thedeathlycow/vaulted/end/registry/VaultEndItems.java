@@ -16,8 +16,15 @@ public final class VaultEndItems {
             VaultedEnd.id("item/elytra_key")
     );
 
+    public static final Item OMINOUS_ELYTRA_KEY = new TexturedPolymerItem(
+            new Item.Settings().rarity(Rarity.UNCOMMON),
+            Items.TRIAL_KEY,
+            VaultedEnd.id("item/ominous_elytra_key")
+    );
+
     public static void initialize() {
         register("elytra_key", ELYTRA_KEY);
+        register("ominous_elytra_key", OMINOUS_ELYTRA_KEY);
     }
 
     private static void register(String name, Item item) {

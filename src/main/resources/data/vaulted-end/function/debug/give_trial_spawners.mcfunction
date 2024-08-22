@@ -2,7 +2,7 @@
 # This function only exists for debugging purposes, changing these values will NOT affect the game!
 
 # Endermite Trial Spawner
-give @s trial_spawner[\
+give @s trial_spawner[                                                                                                 \
 	block_entity_data={\
 		id: "minecraft:trial_spawner",\
 		spawn_data: {entity: {id: "endermite"}},\
@@ -17,10 +17,10 @@ give @s trial_spawner[\
 						entity:{id:"minecraft:endermite"}\
 					},\
 					"weight": 1\
-				}\
-			],\
-			loot_tables_to_eject: [\
-				{data: "vaulted-end:trial_spawners/normal/endermite_ship", weight: 1}\
+				}                                                                                                      \
+			],                                                                                                         \
+			loot_tables_to_eject: [                                                                                    \
+				{ data: "minecraft:chests/end_city_treasure", weight: 1 }                                  \
 			]\
 		},\
 		ominous_config: {\
@@ -59,7 +59,7 @@ give @s trial_spawner[\
 				}\
 			],\
 			loot_tables_to_eject: [\
-				{data: "vaulted-end:trial_spawners/ominous/endermite_ship", weight: 1}\
+				{data: "minecraft:chests/end_city_treasure", weight: 1}\
 			]\
 		},\
 		spawn_data: {\
