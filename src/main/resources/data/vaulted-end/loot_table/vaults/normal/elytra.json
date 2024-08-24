@@ -5,17 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:elytra",
-                    "functions": [
-                        {
-                            "function": "set_damage",
-                            "damage": {
-                                "min": 0.1,
-                                "max": 0.6
-                            },
-                            "add": false
-                        }
-                    ]
+                    "name": "minecraft:elytra"
                 }
             ]
         },
