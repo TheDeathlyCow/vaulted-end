@@ -15,7 +15,12 @@
                             }
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:firework_rocket",
@@ -28,7 +33,12 @@
                             }
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:golden_carrot",
