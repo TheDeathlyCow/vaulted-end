@@ -5,6 +5,15 @@
             "entries": [
                 {
                     "type": "minecraft:item",
+                    "name": "minecraft:elytra"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
                     "name": "minecraft:dragon_head",
                     "weight": 4
                     
