@@ -8,8 +8,8 @@
 		"TheDeathlyCow"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/thedeathlycow/",
+		"sources": "https://github.com/thedeathlycow/vaulted-end"
 	},
 	"license": "MIT",
 	"icon": "assets/vaulted-end/icon.png",
