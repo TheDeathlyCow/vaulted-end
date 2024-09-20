@@ -1,10 +1,11 @@
 {
-	"required": true,
-	"package": "com.thedeathlycow.vaulted.end.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-	],
-	"injectors": {
-		"defaultRequire": 1
+    "required": true,
+    "package": "com.thedeathlycow.vaulted.end.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "EndCityGeneratorMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
 	}
 }
