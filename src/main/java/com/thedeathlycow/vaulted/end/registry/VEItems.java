@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Rarity;
 
-public final class VaultEndItems {
+public final class VEItems {
 
     public static final Item ELYTRA_KEY = new TexturedPolymerItem(
             new Item.Settings().rarity(Rarity.UNCOMMON),
@@ -31,7 +31,7 @@ public final class VaultEndItems {
         Registry.register(Registries.ITEM, VaultedEnd.id(name), item);
     }
 
-    private VaultEndItems() {
+    private VEItems() {
 
     }
 }
