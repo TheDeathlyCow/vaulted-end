@@ -18,7 +18,7 @@ public final class VEItems {
 
     public static final Item OMINOUS_ELYTRA_KEY = new TexturedPolymerItem(
             new Item.Settings().rarity(Rarity.UNCOMMON),
-            Items.TRIAL_KEY,
+            Items.OMINOUS_TRIAL_KEY,
             VaultedEnd.id("item/ominous_elytra_key")
     );
 
