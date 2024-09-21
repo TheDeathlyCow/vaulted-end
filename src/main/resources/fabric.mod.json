@@ -41,5 +41,14 @@
 	},
 	"suggests": {
 		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/aqASuWebRU",
+				"modmenu.kofi": "https://ko-fi.com/thedeathlycow",
+				"modmenu.modrinth": "https://modrinth.com/mod/vaulted-end"
+			}
+		}
 	}
 }
