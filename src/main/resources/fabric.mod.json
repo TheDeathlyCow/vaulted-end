@@ -33,14 +33,13 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.16.2",
-		"minecraft": "~1.21",
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.3",
 		"java": ">=21",
-		"fabric-api": "*",
-		"polymer-core": "*"
+		"fabric-api": ">=0.107.0",
+		"polymer-core": ">=0.10.1"
 	},
 	"suggests": {
-		"another-mod": "*"
 	},
 	"custom": {
 		"modmenu": {
