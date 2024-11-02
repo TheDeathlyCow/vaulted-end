@@ -15,7 +15,6 @@ import java.util.List;
 
 @Mixin(targets = "net.minecraft.structure.EndCityGenerator$3")
 abstract class EndCityGeneratorMixin {
-
     @WrapOperation(
             method = "create",
             at = @At(
@@ -47,6 +46,4 @@ abstract class EndCityGeneratorMixin {
 
         return original.call(structureTemplateManager, lastPiece, relativePosition, template, rotation, ignoreAir);
     }
-
-
 }
