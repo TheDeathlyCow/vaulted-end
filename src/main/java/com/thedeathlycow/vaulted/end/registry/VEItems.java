@@ -40,7 +40,7 @@ public final class VEItems {
     );
 
     public static void initialize() {
-        // loads the class
+        VaultedEnd.LOGGER.debug("Initialized Vaulted End items");
     }
 
     private static Item register(String name, Function<Item.Settings, Item> itemProvider) {
