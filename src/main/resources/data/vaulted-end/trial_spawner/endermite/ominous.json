@@ -1,0 +1,50 @@
+{
+    "total_mobs": 18,
+    "simultaneous_mobs": 6,
+    "simultaneous_mobs_added_per_player": 2,
+    "ticks_between_spawn": 20,
+    "spawn_potentials": [
+        {
+            "weight": 1,
+            "data": {
+                "entity": {
+                    "id": "minecraft:endermite"
+                }
+            }
+        },
+        {
+            "weight": 1,
+            "data": {
+                "entity": {
+                    "id": "minecraft:endermite",
+                    "active_effects": [
+                        {
+                            "id": "minecraft:invisibility",
+                            "duration": 2400
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "weight": 1,
+            "data": {
+                "entity": {
+                    "id": "minecraft:endermite",
+                    "active_effects": [
+                        {
+                            "id": "minecraft:infested",
+                            "duration": 2400
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "loot_tables_to_eject": [
+        {
+            "weight": 1,
+            "data": "vaulted-end:trial_spawners/ominous/generic_loot"
+        }
+    ]
+}
