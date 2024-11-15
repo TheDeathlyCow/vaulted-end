@@ -1,0 +1,48 @@
+{
+    "total_mobs": 6,
+    "simultaneous_mobs": 3,
+    "simultaneous_mobs_added_per_player": 1,
+    "ticks_between_spawn": 20,
+    "spawn_potentials": [
+        {
+            "weight": 1,
+            "data": {
+                "entity": {
+                    "active_effects": [
+                        {
+                            "duration": -1,
+                            "id": "minecraft:glowing"
+                        }
+                    ],
+                    "id": "minecraft:shulker",
+                    "Color": 10
+                }
+            }
+        },
+        {
+            "weight": 1,
+            "data": {
+                "entity": {
+                    "id": "minecraft:shulker",
+                    "active_effects": [
+                        {
+                            "id": "minecraft:weaving",
+                            "duration": 2400
+                        },
+                        {
+                            "duration": -1,
+                            "id": "minecraft:glowing"
+                        }
+                    ],
+                    "Color": 0
+                }
+            }
+        }
+    ],
+    "loot_tables_to_eject": [
+        {
+            "weight": 1,
+            "data": "vaulted-end:trial_spawners/ominous/elytra_key"
+        }
+    ]
+}

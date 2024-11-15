@@ -12,6 +12,7 @@ give @s minecraft:vault[                                        \
     }                                                           \
 ] 1
 
+
 # Ominous End City Ship vault
 give @s minecraft:vault[                                        \
     block_state={ominous: "true"},                              \
