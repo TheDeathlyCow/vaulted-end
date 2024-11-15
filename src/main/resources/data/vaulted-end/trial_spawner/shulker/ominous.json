@@ -8,6 +8,12 @@
             "weight": 1,
             "data": {
                 "entity": {
+                    "active_effects": [
+                        {
+                            "duration": -1,
+                            "id": "minecraft:glowing"
+                        }
+                    ],
                     "id": "minecraft:shulker",
                     "Color": 10
                 }
@@ -22,6 +28,10 @@
                         {
                             "id": "minecraft:weaving",
                             "duration": 2400
+                        },
+                        {
+                            "duration": -1,
+                            "id": "minecraft:glowing"
                         }
                     ],
                     "Color": 0
