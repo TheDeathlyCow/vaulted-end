@@ -19,9 +19,7 @@ public final class VEItems {
             "elytra_key",
             settings ->
                     new SimplePolymerItem(
-                            settings
-                                    .rarity(Rarity.UNCOMMON)
-                                    .modelId(VaultedEnd.id("elytra_key")),
+                            settings.rarity(Rarity.UNCOMMON),
                             Items.TRIAL_KEY,
                             true
                     )
@@ -31,9 +29,7 @@ public final class VEItems {
             "ominous_elytra_key",
             settings ->
                     new SimplePolymerItem(
-                            settings
-                                    .rarity(Rarity.UNCOMMON)
-                                    .modelId(VaultedEnd.id("ominous_elytra_key")),
+                            settings.rarity(Rarity.UNCOMMON),
                             Items.OMINOUS_TRIAL_KEY,
                             true
                     )
