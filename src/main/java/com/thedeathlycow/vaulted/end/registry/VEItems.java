@@ -21,7 +21,8 @@ public final class VEItems {
             settings ->
                     new ElytraKeyItem(
                             settings.rarity(Rarity.UNCOMMON),
-                            Items.TRIAL_KEY
+                            Items.TRIAL_KEY,
+                            "Elytra Key"
                     )
     );
 
@@ -30,7 +31,8 @@ public final class VEItems {
             settings ->
                     new ElytraKeyItem(
                             settings.rarity(Rarity.UNCOMMON),
-                            Items.OMINOUS_TRIAL_KEY
+                            Items.OMINOUS_TRIAL_KEY,
+                            "Ominous Elytra Key"
                     )
     );
 
