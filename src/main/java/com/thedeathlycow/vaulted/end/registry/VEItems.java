@@ -1,6 +1,7 @@
 package com.thedeathlycow.vaulted.end.registry;
 
 import com.thedeathlycow.vaulted.end.VaultedEnd;
+import com.thedeathlycow.vaulted.end.item.ElytraKeyItem;
 import eu.pb4.polymer.core.api.item.SimplePolymerItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
@@ -18,20 +19,18 @@ public final class VEItems {
     public static final Item ELYTRA_KEY = register(
             "elytra_key",
             settings ->
-                    new SimplePolymerItem(
+                    new ElytraKeyItem(
                             settings.rarity(Rarity.UNCOMMON),
-                            Items.TRIAL_KEY,
-                            true
+                            Items.TRIAL_KEY
                     )
     );
 
     public static final Item OMINOUS_ELYTRA_KEY = register(
             "ominous_elytra_key",
             settings ->
-                    new SimplePolymerItem(
+                    new ElytraKeyItem(
                             settings.rarity(Rarity.UNCOMMON),
-                            Items.OMINOUS_TRIAL_KEY,
-                            true
+                            Items.OMINOUS_TRIAL_KEY
                     )
     );
 
