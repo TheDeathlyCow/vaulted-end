@@ -8,10 +8,26 @@ End Ships are now generated with Vaults and Trial Spawners. One Shulker Trial Sp
 
 About a third of all ships will generate an Ominous Vault in addition to the regular one. As in Trial Chambers, if you have the Bad Omen effect, then you can get Ominous spawners to drop an Ominous Elytra Key. Beware though - the ominous spawners are much more difficult to defeat!
 
-![An end ship with normal and ominous Vaults and Endermite trial spawners](https://media.githubusercontent.com/media/TheDeathlyCow/vaulted-end/main/docs/ominous_ship.jpg)
+![An end ship with normal and ominous Vaults and Endermite trial spawners](https://media.githubusercontent.com/media/TheDeathlyCow/vaulted-end/HEAD/docs/ominous_ship.jpg)
 
 ## Installation for Servers
 
 This mod uses Polymer to be completely capable of running server side. Players will not need to install this mod (or any mod) to play it on your server - it is fully compatible with vanilla clients. However, it does come with a resource pack for the Elytra keys that you may wish to use. See the Polymer wiki for instructions on setting this up for your server: [https://polymer.pb4.eu/latest/user/resource-pack-hosting/](https://polymer.pb4.eu/latest/user/resource-pack-hosting/)
 
-Players with vanilla clients who choose not to use the resource pack will instead see Elytra Keys as Trial Keys and Ominous Elytra Keys as Ominous Trial Keys. 
+Players with vanilla clients who choose not to use the resource pack will instead see Elytra Keys as Trial Keys and Ominous Elytra Keys as Ominous Trial Keys.
+
+## License
+
+Copyright 2025 TheDeathlyCow
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

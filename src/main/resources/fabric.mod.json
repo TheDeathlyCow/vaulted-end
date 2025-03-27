@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/thedeathlycow/",
 		"sources": "https://github.com/thedeathlycow/vaulted-end"
 	},
-	"license": "MIT",
+	"license": "Apache-2.0",
 	"icon": "assets/vaulted-end/icon.png",
 	"environment": "*",
 	"entrypoints": {
