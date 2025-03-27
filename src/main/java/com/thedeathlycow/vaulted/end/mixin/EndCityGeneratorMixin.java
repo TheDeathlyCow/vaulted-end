@@ -2,6 +2,7 @@ package com.thedeathlycow.vaulted.end.mixin;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
+import com.llamalad7.mixinextras.sugar.Local;
 import net.minecraft.structure.EndCityGenerator;
 import net.minecraft.structure.StructurePiece;
 import net.minecraft.structure.StructureTemplateManager;
@@ -31,19 +32,13 @@ abstract class EndCityGeneratorMixin {
             BlockRotation rotation,
             boolean ignoreAir,
             Operation<EndCityGenerator.Piece> original,
-            StructureTemplateManager manager,
-            int depth,
-            EndCityGenerator.Piece root,
-            BlockPos pos,
-            List<StructurePiece> pieces,
-            Random random
+            @Local(argsOnly = true) Random random
     ) {
+        String moddedTemplate = "vaulted_end/ship";
         if (random.nextInt(3) == 0) {
-            template = "vaulted_end/ominous_ship";
-        } else {
-            template = "vaulted_end/ship";
+            moddedTemplate = "vaulted_end/ominous_ship";
         }
 
-        return original.call(structureTemplateManager, lastPiece, relativePosition, template, rotation, ignoreAir);
+        return original.call(structureTemplateManager, lastPiece, relativePosition, moddedTemplate, rotation, ignoreAir);
     }
 }
