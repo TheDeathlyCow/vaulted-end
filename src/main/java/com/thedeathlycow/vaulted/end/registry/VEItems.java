@@ -2,15 +2,14 @@ package com.thedeathlycow.vaulted.end.registry;
 
 import com.thedeathlycow.vaulted.end.VaultedEnd;
 import com.thedeathlycow.vaulted.end.item.ElytraKeyItem;
-import eu.pb4.polymer.core.api.item.SimplePolymerItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.Items;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.Rarity;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.Rarity;
 
 import java.util.function.Function;
 
@@ -40,12 +39,12 @@ public final class VEItems {
         VaultedEnd.LOGGER.debug("Initialized Vaulted End items");
     }
 
-    private static Item register(String name, Function<Item.Settings, Item> itemProvider) {
+    private static Item register(String name, Function<Item.Properties, Item> itemProvider) {
         Identifier id = VaultedEnd.id(name);
-        RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, id);
-        Item item = itemProvider.apply(new Item.Settings().registryKey(key));
+        ResourceKey<Item> key = ResourceKey.create(Registries.ITEM, id);
+        Item item = itemProvider.apply(new Item.Properties().setId(key));
 
-        return Registry.register(Registries.ITEM, key, item);
+        return Registry.register(BuiltInRegistries.ITEM, key, item);
     }
 
     private VEItems() {

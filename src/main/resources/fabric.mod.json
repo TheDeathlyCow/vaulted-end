@@ -26,18 +26,14 @@
 		]
 	},
 	"mixins": [
-		"vaulted-end.mixins.json",
-		{
-			"config": "vaulted-end.client.mixins.json",
-			"environment": "client"
-		}
+		"vaulted-end.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.18.4",
-		"minecraft": ">=1.21.11",
-		"java": ">=21",
-		"fabric-api": ">=0.140.2",
-		"polymer-core": ">=0.15.1"
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~26.1-",
+		"java": ">=25",
+		"fabric-api": ">=0.144.3",
+		"polymer-core": ">=0.16.0-"
 	},
 	"suggests": {
 	},
